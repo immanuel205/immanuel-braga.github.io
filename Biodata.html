@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/svg+xml" href="logo.svg">
+<title>Immanuel Braga Gultom — Website Pribadi</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="#beranda"><img class="logo" src="logo.svg" alt="" width="32" height="32"> Immanuel Gultom</a>
+    <nav aria-label="Menu utama">
+      <ul>
+        <li><a href="#tentang">Tentang</a></li>
+        <li><a href="#pendidikan">Pendidikan</a></li>
+        <li><a href="#minat">Minat</a></li>
+        <li><a href="#tautan">Tautan</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+    </nav>
+    <button id="themeBtn" type="button" aria-pressed="false">Mode gelap</button>
+  </div>
+</header>
+
+<main>
+  <div class="hero" id="beranda">
+    <div class="wrap">
+      <div>
+        <p id="greeting">Halo!</p>
+        <h1>Saya Immanuel Braga Gultom.</h1>
+        <p>Mahasiswa Sistem Informasi di Universitas Widyatama, Bandung. Saya sedang belajar membangun website dan merancang sistem informasi.</p>
+        <p><a class="btn" href="#kontak">Hubungi saya</a> <a class="btn ghost" href="#pendidikan">Lihat pendidikan</a></p>
+      </div>
+      <!-- Ganti src dengan foto sendiri, misalnya foto.jpg yang diunggah ke repository yang sama -->
+      <img alt="Foto profil Immanuel Braga Gultom" width="220" height="220"
+        src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 220 220'%3E%3Crect width='220' height='220' fill='%230b7a75'/%3E%3Ccircle cx='110' cy='88' r='40' fill='%23ffffff' opacity='.9'/%3E%3Cpath d='M30 220c6-50 40-76 80-76s74 26 80 76z' fill='%23ffffff' opacity='.9'/%3E%3C/svg%3E">
+    </div>
+  </div>
+
+  <section id="tentang">
+    <div class="wrap">
+      <h2>Tentang saya</h2>
+      <div class="two">
+        <div class="panel">
+          <h3>Identitas mahasiswa</h3>
+          <dl class="id-list">
+            <dt>Nama</dt><dd>Immanuel Braga Gultom</dd>
+            <dt>NIM</dt><dd>ISI_NIM_KAMU</dd>
+            <dt>Program studi</dt><dd>Sistem Informasi</dd>
+            <dt>Kampus</dt><dd>Universitas Widyatama</dd>
+            <dt>Kota</dt><dd>Bandung</dd>
+          </dl>
+        </div>
+        <div class="panel">
+          <h3>Profil singkat</h3>
+          <p>Saya tertarik pada pengembangan web dan analisis sistem. Di luar kuliah, saya suka menonton film dan anime, serta berlari dan bermain bulu tangkis. Website ini dibuat sebagai tugas mata kuliah Pemrograman Berbasis Web.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pendidikan">
+    <div class="wrap">
+      <h2>Riwayat pendidikan</h2>
+      <div class="panel tablewrap">
+        <table>
+          <caption class="sr" style="position:absolute;left:-9999px">Tabel riwayat pendidikan</caption>
+          <thead><tr><th>Jenjang</th><th>Sekolah / Kampus</th><th>Keterangan</th></tr></thead>
+          <tbody>
+            <tr><td>SMP</td><td>SMP BPP</td><td>Selesai</td></tr>
+            <tr><td>SMK</td><td>SMK BPP</td><td>Selesai</td></tr>
+            <tr><td>Kuliah</td><td>Universitas Widyatama</td><td>Sistem Informasi (sedang berjalan)</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section id="minat">
+    <div class="wrap">
+      <h2>Minat dan hobi</h2>
+      <div class="panel">
+        <ul class="tags">
+          <li>Pemrograman web</li><li>Sistem informasi</li><li>Menonton film</li><li>Anime</li><li>Berlari</li><li>Bulu tangkis</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="tautan">
+    <div class="wrap">
+      <h2>Tautan</h2>
+      <div class="two">
+        <div class="panel">
+          <h3>Di halaman ini</h3>
+          <ul class="links">
+            <li><a href="#tentang">Identitas saya</a></li>
+            <li><a href="#pendidikan">Riwayat pendidikan</a></li>
+            <li><a href="#kontak">Formulir kontak</a></li>
+          </ul>
+        </div>
+        <div class="panel">
+          <h3>Eksternal dan media sosial</h3>
+          <ul class="links">
+            <li><a href="https://www.widyatama.ac.id" target="_blank" rel="noopener">Universitas Widyatama</a></li>
+            <li><a href="https://developer.mozilla.org/id/" target="_blank" rel="noopener">MDN Web Docs (belajar HTML, CSS, JS)</a></li>
+            <li><a href="https://github.com/" target="_blank" rel="noopener">GitHub saya</a></li>
+            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram saya</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="kontak">
+    <div class="wrap">
+      <h2>Kontak</h2>
+      <div class="panel">
+        <form id="contactForm" novalidate>
+          <label>Nama
+            <input id="nama" name="nama" type="text" autocomplete="name">
+            <span class="err" id="errNama"></span>
+          </label>
+          <label>Email
+            <input id="email" name="email" type="email" autocomplete="email">
+            <span class="err" id="errEmail"></span>
+          </label>
+          <label>Pesan
+            <textarea id="pesan" name="pesan" rows="4"></textarea>
+            <span class="err" id="errPesan"></span>
+          </label>
+          <div><button class="btn" type="submit">Kirim pesan</button></div>
+          <p id="formMsg" role="status"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>&copy; <span id="year">2026</span> Immanuel Braga Gultom — Sistem Informasi, Universitas Widyatama.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
